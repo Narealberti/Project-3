@@ -61,7 +61,7 @@ const {errors}= this.state
 							<img className="intro-img img-fluid mb-3 mb-lg-0 rounded" src={Pic5} alt="" />
 							<div className="intro-text left-0 text-center bg-faded p-5 rounded">
 								<h2 className="section-heading mb-4">
-									<span className="section-heading-upper">Reservation</span>
+									<span className="section-heading-upper">RESERVATION</span>
 
 								</h2>
 

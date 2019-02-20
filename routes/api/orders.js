@@ -16,6 +16,7 @@ router.get('/test', (req, res) => res.json({ msg: "orders Works" }));
 //@access Public
 router.post('/order', (req, res) => {
     const { errors, isValid } = validateOrdersInput(req.body);
+
     // Check Validation
     if (!isValid) {
         // Return any errors with 400 status
